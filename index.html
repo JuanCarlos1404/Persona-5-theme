@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona 5 Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="video/persona5rain.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="menu-container">
+        <button id="toggle-menu">
+            <img src="images/mask.png" alt="Toggle Menu">
+        </button>
+        <nav class="main-menu">
+            <ul>
+                <li class="menu-item" data-content="Persona Content">
+                    <img src="images/persona-icon.png" alt="Persona Icon"> Persona
+                </li>
+                <li class="menu-item" data-content="Equip Content">
+                    <img src="images/equip-icon.png" alt="Equip Icon"> Equip
+                </li>
+                <li class="menu-item" data-content="Stats Content">
+                    <img src="images/stats-icon.png" alt="Stats Icon"> Stats
+                </li>
+                <li class="menu-item" data-content="Items Content">
+                    <img src="images/items-icon.png" alt="Items Icon"> Items
+                </li>
+                <li class="menu-item" data-content="System Content">
+                    <img src="images/system-icon.png" alt="System Icon"> System
+                </li>
+            </ul>
+        </nav>
+        <section class="content">
+            <h2>Welcome to Persona 5 Menu</h2>
+        </section>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
